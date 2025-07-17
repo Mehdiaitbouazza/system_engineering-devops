@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# This script is invincible to SIGTERM.
-trap 'echo "I am invincible!!!"' SIGTERM; while true; do echo "To infinity and beyond"; sleep 2; done
