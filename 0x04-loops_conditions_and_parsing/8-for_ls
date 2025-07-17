@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script lists directory contents, showing parts after the first dash, excluding hidden files.
+
+for item in *; do echo "${item#*-}"; done

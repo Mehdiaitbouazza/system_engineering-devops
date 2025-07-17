@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# This script lists directory contents, showing parts after the first dash.
-for file in *; do [[ -f "$file" || -d "$file" ]] && echo "${file#*-}"; done

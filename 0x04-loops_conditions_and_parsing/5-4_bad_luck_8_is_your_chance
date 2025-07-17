@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# This script displays different messages based on loop iteration.
+# This script displays different messages based on loop iteration (4th, 8th, others).
+
 i=1; while [ $i -le 10 ]; do if [ $i -eq 4 ]; then echo "bad luck"; elif [ $i -eq 8 ]; then echo "good luck"; else echo "Best School"; fi; i=$((i+1)); done

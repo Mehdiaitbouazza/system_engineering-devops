@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times using an until loop
+# This script displays "Best School" 10 times using an until loop.
+
 i=0; until [ $i -ge 10 ]; do echo "Best School"; i=$((i+1)); done
